@@ -1,3 +1,5 @@
+#CS3 IM changing my code 
+
 class Patient:
     def __init__(self, name, bill_amount):
         self.__name = name
@@ -35,6 +37,8 @@ philhealth_patient = PhilHealthPatient("Pedro Reyes", 15000)
 
 print("Hospital Billing System")
 print("----------------------------")
+print()
+#I added a space
 print()
 print("Patient Name:", regular_patient.get_name())
 print(f"Original Bill: ₱{regular_patient.get_bill_amount()}")
